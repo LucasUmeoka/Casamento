@@ -1,0 +1,57 @@
+.cabecalho {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    padding: 0em 0em 5em 0em;
+}
+
+.brasao{ 
+    padding: 2em 0;
+    width: 150px;
+}
+
+.texto {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #BD7620;
+    padding: 2em 0.3em 0.5em 0.3em;
+}
+
+.texto__2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+    color: #BD7620;
+    padding: 0.5em 0.5em 5em 0.5em;
+}
+
+.confirmar{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0);
+    background-color: #BD7620;
+    border-radius: 50px;
+    border-color: #BD7620;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.lista_de_presentes {
+    border: 1px solid;
+    border-radius: 50px;
+    border-color: #BD7620;
+    padding: 1em 2em;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #BD7620 ;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1.5em 0;
+}

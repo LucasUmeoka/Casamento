@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirmar Presença</title>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--Importação do reset -->
+    <link rel="stylesheet" href="../reset.css">
+    <link rel="stylesheet" href="../style.css">
+
+    <!-- Importação de fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&family=Neuton:wght@200&display=swap" rel="stylesheet">    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Neuton:wght@200&display=swap" rel="stylesheet">    
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="../assets/img/Brasão.png" alt="Brasão Milena e Lucas" class="brasao_form">
+    </header>
+    <section class="formulario">
+        <p class="titulo_form">
+            Confirmação de Presença
+        </p>
+
+        <form action="https://sheetdb.io/api/v1/zvwj5i8zladgg" method="post" class="informacao" data-form>
+            <label class= "label" for="Nome">Insira o seu nome</label>
+            <input class="imput" id="Nome" type="name" placeholder="Insira o seu nome" name="data[Nome]" required>
+            <label for="Telefone" class="label">Insira o seu telefone</label>
+            <input class="imput" id="Telefone" type="telefone" placeholder="Insira o seu telefone" name="data[Telefone]" required>
+            <label for="Quantidade" class="label">Insira a quantidade de pessoas que você quer confirmar</label>
+            <input class="imput" id="Quantidade" type="number" placeholder="Quantidade de pessoas" name="data[Quantidade]" required>
+            <button type="submit" name="submit" class="confirmar_form" data-button>Confirmar</button>
+        </form>
+    </section>
+
+
+    <script src="form.js"></script>
+</body>
+</html>

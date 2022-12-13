@@ -1,0 +1,73 @@
+.fotos {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    background: #69522D;
+    padding: 0 0 3em 0;
+}
+
+.titulo_fotos{ 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding: 1em 0.5em 3em 0.5em;
+}
+
+.foto__1{
+    padding-left: 10%;
+    width: 250px;
+    transform: rotate(-10deg);
+}
+
+.foto__2{
+    padding-left: 25%;
+    width: 250px;
+    transform: rotate(10deg);
+}
+
+.foto__3{
+    padding-left: 5%;
+    width: 250px;
+    transform: rotate(-5deg);
+}
+
+.foto__4{
+    padding-left: 20%;
+    width: 250px;
+    transform: rotate(20deg);
+}
+
+.foto__5{
+    padding-left: 10%;
+    width: 250px;
+    transform: rotate(-10deg);
+}
+
+.foto__6{
+    padding-left: 30%;
+    width: 250px;
+    transform: rotate(5deg);
+}
+
+.foto__7{
+    padding-left: 25%;
+    width: 250px;
+    transform: rotate(-10deg);
+}
+
+.foto__8{
+    padding-left: 5%;
+    width: 250px;
+    transform: rotate(5deg);
+}
+
+.foto__9{
+    padding-left: 30%;
+    width: 250px;
+    transform: rotate(3deg);
+}
+
+.foto__1, .foto__2, .foto__3, .foto__4, .foto__5, .foto__6, .foto__7, .foto__8, .foto__9 {
+    visibility: hidden;

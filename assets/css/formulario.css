@@ -1,0 +1,71 @@
+.brasao_form{ 
+    padding: 2em 0 1em 0;
+    width: 150px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo_form{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    color: #B32E1E;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 0 1em 0; 
+}
+
+.informacao {
+    display: flex;
+    flex-direction: column;
+}
+
+.imput {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #B32E1E;
+    padding: 1em 2em;
+    margin: 1em 0.5em;
+    border: 1px solid #B32E1E;
+    border-radius: 50px;
+}
+
+.confirmar_form {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: white;
+    background-color: #B32E1E;
+    border: 1px solid #B32E1E;
+    border-radius: 50px;
+    margin: 2.5em 0em;
+    padding: 1em 2.5em;
+}
+
+.label {
+    font-family: 'Montserrat';
+    padding: 1em 1em;
+    margin: 0 1em;
+    color: #B32E1E;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.retornar {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #B32E1E;
+    border: 1px solid #B32E1E;
+    border-radius: 50px;
+    padding: 1em 2.5em;
+    text-decoration: none;
+}
