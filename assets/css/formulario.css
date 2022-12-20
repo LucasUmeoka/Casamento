@@ -1,5 +1,5 @@
 .brasao_form{ 
-    padding: 2em 0 1em 0;
+    padding: 2em 0 0.5em 0;
     width: 150px;
 }
 
@@ -67,5 +67,20 @@
     border: 1px solid #B32E1E;
     border-radius: 50px;
     padding: 1em 2.5em;
+    margin: 1em 0;
     text-decoration: none;
+}
+
+.link_havan{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #B32E1E;
+    text-align: center;
+    padding: 1em 0.5em 1em 0.5em;
+}
+
+.pix{
+    width:200px;
+    height: 200px;
 }
